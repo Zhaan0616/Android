@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PrivateActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/pred"
+        app:navigationIcon="@drawable/register_back"
+        app:titleTextColor="@color/white"
+        app:title="隐私政策"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Online Shop隐私政策"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="30dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="【引言】\n
+       欢迎您使用我们的产品和服务！我们深知个人信息对您的重要性，您的信赖对我们非常重要，我们将严格遵守法律法规要求以合法正当、最小必要的原则，并采取相应的安全保护措施，致力于保护您的个人信息安全可控。基于此，淘宝网服务提供者（或简称“我们”）制定本《淘宝网基本功能隐私政策》（下称“本政策”/“本隐私政策”），帮助您充分了解在您使用我们产品和服务的过程中，我们会如何收集、使用、共享、存储和保护您的个人信息以及您可以如何管理您的个人信息，以便您更好地作出适当的选择。\n"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="       在您开始使用我们的产品和服务前，请您务必先仔细阅读和理解本政策，特别应重点阅读我们以粗体/粗体下划线标识的条款，确保您充分理解和同意之后再开始使用。本政策中涉及的专业词汇，我们尽量以简明通俗的表述向您解释，以便于您理解。如对本政策内容有任何疑问、意见或建议，您可通过本政策文末的联系方式与我们联系。\n"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        您同意隐私政策表示您已了解我们产品和服务所提供的基本功能，以及基本功能运行所需的必要个人信息，并给予相应的收集使用授权，但并不代表您已单独同意开启附加功能，涉及附加功能的开启我们会根据您的实际使用情况单独征求您的同意。如果您拒绝开启附加功能和我们收集非必要个人信息，并不会影响您使用基本功能。"/>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

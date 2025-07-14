@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="bottom"
+    android:background="@color/pred"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="30dp"
+        app:cardCornerRadius="40dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="45dp">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/tx"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:text="其他功能"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+
+        <TextView
+            android:id="@+id/tv_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            android:text="越努力越幸运"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

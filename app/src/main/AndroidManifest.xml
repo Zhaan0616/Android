@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gouwu">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Android 13版本适配，细化存储权限-->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+
+    <queries package="com.example.gouwu">
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE">
+
+            </action>
+        </intent>
+        <intent>
+            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE">
+
+            </action>
+        </intent>
+    </queries>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/klm"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/klm"
+        android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/Theme.OrderFood">
+        <activity
+            android:name=".UserCommentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PrivateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdatePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductDetalisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CollectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

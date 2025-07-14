@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".AboutActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/pred"
+        app:navigationIcon="@drawable/register_back"
+        app:titleTextColor="@color/white"
+        app:title="关于App"/>
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="@drawable/welcom_logo"/>
+
+    <TextView
+        android:layout_margin="15dp"
+        android:lineSpacingExtra="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online Shop是指提供网上购物的网络平台，而这种平台主要是指网上购物网站。消费者可以在网上寻找自己想要的商品，然后进行网上购买，网上支付，最后通过快递运输并拿到自己所需的东西，包括许多种类供人们选择"/>
+
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
